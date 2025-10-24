@@ -21,4 +21,12 @@ inside the array to the value inside of the prarameter of the array.fill.
 29. When I change the state to 5 and run the run method, I don't see any
 changes in the pattern in the terminal.
 
-30.
+31. We use a new array because the cells in the old array will be stored in the new
+array and then replace state to nextState.
+When i chsnge the nextState to State, the automaton's behavior makes the "*" pattern distorted,
+because the method gets confuse on the old and new values that are stored.
+
+32. I think the complete array is better because it's clear while the solution is much 
+harder to understand.
+
+33.
